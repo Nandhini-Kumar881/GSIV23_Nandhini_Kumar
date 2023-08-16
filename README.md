@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Movie Browser App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instructions
 
-## Available Scripts
+To run and test the code:
 
-In the project directory, you can run:
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `npm install`.
+3. Obtain an API key from [The Movie Database (TMDb)](https://www.themoviedb.org/).
+4. Create a `.env` file in the root directory and add your API key: `REACT_APP_API_KEY=your_api_key_here`.
+5. Run the app locally using `npm start`.
+6. Open your browser and navigate to `http://localhost:3000`.
 
-### `npm start`
+To run unit tests:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Run `npm test` to execute Jest-based unit tests.
+2. Run `npm run test-dom` to execute React Testing Library based DOM tests.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Elements Demonstrating Proficiency
 
-### `npm test`
+1. **Redux State Management:** Utilized Redux to manage the application's state, ensuring a predictable and centralized source of truth for data.
+2. **API Integration:** Integrated the TMDb API to fetch and display movie data.
+3. **Routing:** Implemented routing using React Router to navigate between List and Details pages.
+4. **Responsive Design:** Developed a responsive design with a minimum width of 512 pixels to ensure compatibility across various devices.
+5. **Infinite Scrolling:** Implemented infinite scrolling on the List page to enhance user experience.
+6. **UI Components:** Created reusable UI components such as MovieCard to maintain code modularity.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+These elements showcase my proficiency in front-end development, state management, API integration, and responsive design.
 
-### `npm run build`
+## Improvements with Additional Time
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If I had more time, I would:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Improve Testing:** Extend test coverage for reducers, actions, and UI components, ensuring comprehensive code quality checks.
+2. **Implement Error Handling:** Enhance error handling and display meaningful error messages when API requests fail.
+3. **Optimize Performance:** Implement memoization and consider using libraries like Reselect to optimize Redux selectors.
+4. **Implement PWA Features:** Convert the app into a Progressive Web App (PWA) to enable offline access and improve user experience.
+5. **Enhance Styling:** Polish the UI, refine styles, and ensure consistent visual elements across the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These improvements would enhance the app's stability, performance, and user experience.
 
-### `npm run eject`
+## Feedback
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The challenge is well-structured and comprehensive, covering various aspects of modern web development. However, providing more specific guidance on setting up Redux, API integration, and styling would be beneficial for candidates who are new to these concepts.
