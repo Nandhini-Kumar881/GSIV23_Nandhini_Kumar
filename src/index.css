@@ -136,6 +136,7 @@ body {
 }
 
 .search-button {
+  background-color: #DFDFDF;
   border: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -145,16 +146,22 @@ body {
 
 .home-button {
   border: none;
-  padding: 8px 16px;
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
   color: black;
 }
-.MovedetailsTitle{
+
+.MovedetailsTitle {
   align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+input {
+  background-color: #dfdfdf;
+  padding: 13px;
+  border: none;
 }

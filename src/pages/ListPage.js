@@ -46,15 +46,15 @@ const ListPage = () => {
     <div className="list-page-container">
       <div className="search-bar">
         <div className="search-input-container">
+        <button className="search-button" onClick={handleSearch}>
+          <SearchIcon/>
+           </button>
           <input
             type="text"
-            placeholder="Search movies..."
+            placeholder="Search"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
-          <button className="search-button" onClick={handleSearch}>
-            <SearchIcon />
-          </button>
         </div>
         <HomePage />
       </div>

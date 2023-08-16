@@ -37,15 +37,10 @@ const DetailsPage = () => {
           className="horizontal-movie-card-image"
         />
         <div className="horizontal-movie-card-content">
-          <h3 className="horizontal-movie-card-title">{movieDetails.title}</h3>
-          <p className="horizontal-movie-card-rating">
-            Rating: {movieDetails.vote_average}
-          </p>
+          <h3 className="horizontal-movie-card-title">{movieDetails.title} {`(Rating : ${movieDetails.vote_average})`}</h3>
           <p className="horizontal-movie-card-description">
             <div className="details-content">
-              <p>Year of Release: {movieDetails.release_date}</p>
-              <p>Length: {movieDetails.runtime} min</p>
-              <p>Director: {movieDetails.director}</p>
+              <p>{movieDetails.release_date} | {movieDetails.runtime} min | {movieDetails.director}</p>
               <p>Cast: {movieDetails.cast.join(', ')}</p>
               <p>Description: {movieDetails.overview}</p>
             </div>
